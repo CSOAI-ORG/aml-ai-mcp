@@ -1,0 +1,36 @@
+# aml-ai-mcp
+# 6AMLD + UK MLR 2017 + FinCEN BSA AML/CFT compliance for AI-enabled transaction monitoring, sanctions screening, PEP screening.
+
+## Install
+```bash
+pip install aml-ai-mcp
+```
+
+## Auth & Rate Limits
+- Free tier: 10 calls/day. No API key required.
+- Pro tier (£79/mo): unlimited + signed attestations.
+- Enterprise (£1,499/mo): white-label + on-premise.
+
+## Tools (5)
+
+### `classify_obliged_entity(query, api_key)`
+Determine if entity falls within 6AMLD scope
+
+### `kyc_cdd_audit(query, api_key)`
+Customer Due Diligence + Enhanced Due Diligence audit
+
+### `sanctions_screening(query, api_key)`
+OFAC + EU + UK + UN sanctions list screening check
+
+### `transaction_monitoring(query, api_key)`
+AI-based transaction monitoring rule effectiveness audit
+
+### `sar_filing_check(query, api_key)`
+Suspicious Activity Report filing trigger conditions
+
+## Pairs with
+- `meok-attestation-api` — HMAC signing for compliance certs
+- `meok-attestation-verify` — public verification
+
+## Maintainer
+MEOK AI Labs · hello@meok.ai · https://meok.ai · MIT

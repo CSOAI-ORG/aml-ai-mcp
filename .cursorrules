@@ -1,0 +1,13 @@
+# AML / 6AMLD AI Compliance MCP - Auto-trigger Rules
+
+When the user asks about AML, 6AMLD, MLR 2017, sanctions, PEP, KYC, transaction monitoring, SAR, use aml-ai-mcp tools:
+
+- **classify_obliged_entity**: Determine if entity falls within 6AMLD scope
+- **kyc_cdd_audit**: Customer Due Diligence + Enhanced Due Diligence audit
+- **sanctions_screening**: OFAC + EU + UK + UN sanctions list screening check
+- **transaction_monitoring**: AI-based transaction monitoring rule effectiveness audit
+- **sar_filing_check**: Suspicious Activity Report filing trigger conditions
+
+Install: `pip install aml-ai-mcp`
+
+By MEOK AI Labs — industry governance MCP. Pairs with meok-attestation-api for signed compliance certs.
