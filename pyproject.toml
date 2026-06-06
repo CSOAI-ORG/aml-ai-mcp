@@ -4,7 +4,8 @@ build-backend = "hatchling.build"
 
 [project]
 name = "aml-ai-mcp"
-version = "1.0.0"
+readme = "README.md"
+version = "1.0.5"
 description = "6AMLD + UK MLR 2017 + FinCEN BSA AML/CFT compliance for AI-enabled transaction monitoring, sanctions screening, PEP screening."
 license = {file = "LICENSE"}
 requires-python = ">=3.10"
@@ -20,7 +21,7 @@ dependencies = ["mcp>=1.0.0"]
 
 [project.urls]
 Homepage = "https://meok.ai"
-Repository = "https://github.com/meok-ai-labs/aml-ai-mcp"
+Repository = "https://github.com/CSOAI-ORG/aml-ai-mcp"
 
 [tool.hatch.build.targets.wheel]
 packages = ["."]

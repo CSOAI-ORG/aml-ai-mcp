@@ -1,0 +1,34 @@
+{
+  "name": "aml-ai-mcp",
+  "title": "Aml Ai Mcp",
+  "description": "6AMLD + UK MLR 2017 + FinCEN BSA AML/CFT compliance for AI-enabled transaction monitoring, sanctions screening, PEP screening.",
+  "version": "1.0.5",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "classify_obliged_entity"
+    },
+    {
+      "name": "kyc_cdd_audit"
+    },
+    {
+      "name": "sanctions_screening"
+    },
+    {
+      "name": "transaction_monitoring"
+    },
+    {
+      "name": "sar_filing_check"
+    },
+    {
+      "name": "search_regulation"
+    },
+    {
+      "name": "list_regulations_in_db"
+    }
+  ]
+}

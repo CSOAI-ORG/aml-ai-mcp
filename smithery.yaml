@@ -1,0 +1,33 @@
+name: aml-ai-mcp
+description: 'MCP server: aml-ai-mcp'
+version: 1.0.5
+author: MEOK AI Labs
+homepage: https://safetyof.ai
+repository: https://github.com/MEOK-AI-Labs/aml-ai-mcp
+license: MIT
+categories:
+- compliance
+- governance
+tools:
+- name: classify_obliged_entity
+  description: Determine if entity falls within 6AMLD scope
+- name: kyc_cdd_audit
+  description: Customer Due Diligence + Enhanced Due Diligence audit
+- name: sanctions_screening
+  description: OFAC + EU + UK + UN sanctions list screening check
+- name: transaction_monitoring
+  description: AI-based transaction monitoring rule effectiveness audit
+- name: sar_filing_check
+  description: Suspicious Activity Report filing trigger conditions
+- name: search_regulation
+  description: Full-text search across 410+ articles of real EU regulation text (EUR-Lex
+    verified).
+- name: list_regulations_in_db
+  description: List all regulations in the local EUR-Lex FTS5 database.
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+  - mcp>=1.0.0
+runtime:
+  python: '>=3.10'
