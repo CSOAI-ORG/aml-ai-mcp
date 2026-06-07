@@ -1,0 +1,25 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "aml-ai-mcp",
+    "description": "6AMLD + UK MLR 2017 + FinCEN BSA AML/CFT compliance for AI-enabled transaction monitoring, sanct...",
+    "version": "1.0.5",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "aml-ai-mcp"
+      }
+    ],
+    "capabilities": [
+      "classify_obliged_entity",
+      "kyc_cdd_audit",
+      "sanctions_screening",
+      "transaction_monitoring",
+      "sar_filing_check",
+      "search_regulation",
+      "list_regulations_in_db"
+    ]
+  }
+}
