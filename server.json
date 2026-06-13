@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.CSOAI-ORG/aml-ai-mcp",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "6AMLD + UK MLR 2017 + FinCEN BSA AML/CFT compliance for AI-enabled transaction monitoring, sanct...",
   "repository": {
     "url": "https://github.com/CSOAI-ORG/aml-ai-mcp",
@@ -11,7 +11,7 @@
     {
       "registryType": "pypi",
       "identifier": "aml-ai-mcp",
-      "version": "1.0.8",
+      "version": "1.0.9",
       "runtimeHint": "python",
       "transport": {
         "type": "stdio"

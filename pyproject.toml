@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "aml-ai-mcp"
 readme = "README.md"
-version = "1.0.8"
+version = "1.0.9"
 description = "6AMLD + UK MLR 2017 + FinCEN BSA AML/CFT compliance for AI-enabled transaction monitoring, sanctions screening, PEP screening."
 license = {file = "LICENSE"}
 requires-python = ">=3.10"

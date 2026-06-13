@@ -1,0 +1,144 @@
+{
+  "name": "Aml Ai Mcp",
+  "version": "1.0.5",
+  "url": "https://mcp.meok.ai/aml-ai-mcp/a2a",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "protocolVersion": "0.3.0",
+  "description": "6AMLD + UK MLR 2017 + FinCEN BSA AML/CFT compliance for AI-enabled transaction monitoring, sanctions screening, PEP screening.",
+  "provider": {
+    "organization": "MEOK AI LABS",
+    "url": "https://meok.ai"
+  },
+  "defaultInputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "classify_obliged_entity",
+      "name": "Classify Obliged Entity",
+      "description": "Classify Obliged Entity — a tool of the aml-ai-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "kyc_cdd_audit",
+      "name": "Kyc Cdd Audit",
+      "description": "Kyc Cdd Audit — a tool of the aml-ai-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "sanctions_screening",
+      "name": "Sanctions Screening",
+      "description": "Sanctions Screening — a tool of the aml-ai-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "transaction_monitoring",
+      "name": "Transaction Monitoring",
+      "description": "Transaction Monitoring — a tool of the aml-ai-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "sar_filing_check",
+      "name": "Sar Filing Check",
+      "description": "Sar Filing Check — a tool of the aml-ai-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "search_regulation",
+      "name": "Search Regulation",
+      "description": "Search Regulation — a tool of the aml-ai-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "list_regulations_in_db",
+      "name": "List Regulations In Db",
+      "description": "List Regulations In Db — a tool of the aml-ai-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    }
+  ],
+  "documentationUrl": "https://meok.ai",
+  "x-meok": {
+    "mcp_name": "aml-ai-mcp",
+    "verifier": "https://proofof.ai/verify",
+    "governed_by": "CSOAI 52-article charter"
+  }
+}
