@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "aml-ai-mcp"
 readme = "README.md"
-version = "1.0.9"
+version = "1.0.10"
 description = "6AMLD + UK MLR 2017 + FinCEN BSA AML/CFT compliance for AI-enabled transaction monitoring, sanctions screening, PEP screening."
 license = {file = "LICENSE"}
 requires-python = ">=3.10"
@@ -29,3 +29,22 @@ only-include = ["server.py"]
 
 [project.scripts]
 aml-ai-mcp = "server:main"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+
+[tool.ruff]
+line-length = 100
+select = ["E", "F", "W", "I", "N"]
+ignore = ["E501"]
+
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+warn_return_any = true
+warn_unused_Configs = true
+disallow_untyped_defs = true
+
