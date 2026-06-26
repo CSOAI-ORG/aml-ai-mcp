@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/csoai-org-aml-ai-mcp-badge.png)](https://mseep.ai/app/csoai-org-aml-ai-mcp)
+
 [![MCP Scorecard: 90/100](https://img.shields.io/badge/proofof.ai-90%2F100-5b21b6)](https://proofof.ai/scorecard/aml-ai-mcp.html)
 
 # Aml Ai MCP
